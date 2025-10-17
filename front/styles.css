@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.content-navbar {
+
+  background-color: #2a3441;
+  padding: 15px 30px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: #2a3441 0px 4px 6px -1px, #2a3441 0px 2px 4px -1px;
+}
+
+/** Estilos para la barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.logo-nav {
+  color: white;
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+.btn-login {
+  background-color: #8b4a6b;
+  color: white;
+  padding: 8px 20px;
+  font-family: "Abel", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-login:visited {
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: #9d5577;
+}
+
+/** Estilos para el primer contenedor */
+.container {
+  margin: 0 auto;
+  padding: 80px;
+}
+.main-title {
+  text-align: center;
+  margin: 40px 20px 20px 20px;
+  font-size: 64px;
+  color: black;
+  font-weight: bold;
+}
+
+.text {
+  text-align: center;
+  margin: 0 20px 30px 20px;
+  font-size: 24px;
+  color: black;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.btn-primary {
+  background-color: black;
+  color: white;
+  padding: 8px 13px;
+  font-family: "Abel", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  margin-right: 15px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: black;
+  padding: 8px 13px;
+  font-family: "Abel", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background-color: black;
+  color: white;
+}
+
+/** Estilos para la primera seccion informacion */
+.info-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.info-webmentor {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.text-block-content {
+  width: 60%;
+}
+
+.info-title {
+  text-align: start;
+  font-size: 36px;
+  padding-bottom: 100px;
+}
+
+.info-text {
+  text-align: start;
+  font-size: 18px;
+  line-height: 1.5;
+
+}
+
+.info-image {
+ margin: 0 40px 0 100px;
+ width: 40%;
+}
+
+/*Estilos para la segunda seccion estudiantes*/
+.info-student {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.info-content-student{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.text-content-student-block {
+  width: 60%;
+  padding-left: 64px;
+}
+
+.info-title-student {
+  text-align: start;
+  font-size: 36px;
+  padding-bottom: 24px;
+}
+
+.info-text-student {
+  text-align: start;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+
+.btn-student {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 16px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* Estilos para la tercera seccion tutores */
+
+.info-content-tutor {
+  padding: 50px 100px;
+  text-align: center;
+  display: flex;
+}
+
+.info-content-tutor {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.info-image-tutor {
+  margin: 0 100px 0 40px;
+  width: 40%;
+}
+
+.text-content-tutor-block {
+  width: 60%;
+  padding-right: 64px;
+}
+
+.info-title-tutor {
+  text-align: start;
+  font-size: 36px;
+  padding-bottom: 24px;
+}
+
+.info-text-tutor {
+  padding-bottom: 40px; 
+  text-align: start;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.btn-tutor {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 16px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+} 
+
+/*Estilos para el footer*/
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #141824;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  margin-top: 40px;
+}
+
+.about-us{
+  width: 50%;
+  padding: 0 20px;
+  text-align: start;
+}
+
+h3{
+  padding-bottom: 20px;
+}
+
+.contact{
+  width: 50%;
+  padding: 0 20px;
+  text-align: right;
+  margin-right: 50px;
+}
+ 
